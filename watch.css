@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+  padding: 0;
+  display:flex;
+  flex-direction:column;
+  height:100vh;
+  align-items:center;
+  justify-content:center;
+  font-family:"Open Sans",sans-serif,Ubuntu,Roboto,"Francois One",Arial;
+  background:#ff7;
+}  button{
+  font-size:18px;
+  font-weight:600;
+  border:2px solid;
+  border-radius:5px;
+  background:#eee;
+  cursor:pointer;
+} button:focus{
+  outline:none;
+} #num{
+  font-family:monospace;
+  font-size:30px;
+}
