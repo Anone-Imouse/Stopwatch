@@ -24,7 +24,6 @@ btn2.addEventListener("click",function(){
 });
 
 btn3.addEventListener("click",function(){
-  count = setInterval(add,1000);
   num2=0;
 });
 
