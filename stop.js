@@ -28,7 +28,7 @@ btn3.addEventListener("click",function(){
 });
 
 btn.addEventListener("click",function(){
-clearTimeout(count)
+clearInterval(count)
 });
 
 count = setInterval(add,1000);
